@@ -68,7 +68,7 @@ The SleepCheck application follows a simple client-server architecture:
 2. **Navigate to the frontend folder** (which contains the `docker-compose.yml` file):
 
    ```bash
-   cd sleepcheck_frontend
+   cd sleep_frontend
    ```
 
 3. **Run the application (frontend + backend)**:
