@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ../sleep_backend
+    container_name: sleep_backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../sleep_backend:/app
+  
+  frontend:
+    build: .
+    container_name: sleep_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  sleep_backend_test:
+    build: ../sleep_backend
+    command: pytest -v tests/test_api.py
+    depends_on:
+      - backend
+    profiles:
+      - test
