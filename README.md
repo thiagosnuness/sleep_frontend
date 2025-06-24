@@ -61,8 +61,8 @@ The SleepCheck application follows a simple client-server architecture:
 1. **Clone the repositories**:
 
    ```bash
-   git clone https://github.com/thiagosnuness/sleepcheck_frontend.git
-   git clone https://github.com/thiagosnuness/sleepcheck_backend.git
+   git clone https://github.com/thiagosnuness/sleep_frontend.git
+   git clone https://github.com/thiagosnuness/sleep_backend.git
    ```
 
 2. **Navigate to the frontend folder** (which contains the `docker-compose.yml` file):
@@ -108,5 +108,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 For questions or suggestions:
 
 - **Thiago Nunes** - [GitHub Profile](https://github.com/thiagosnuness)
-- **SleepCheck Frontend**: [https://github.com/thiagosnuness/sleepcheck_frontend](https://github.com/thiagosnuness/sleepcheck_frontend)
-- **SleepCheck Backend**: [https://github.com/thiagosnuness/sleepcheck_backend](https://github.com/thiagosnuness/sleepcheck_backend)
+- **SleepCheck Frontend**: [https://github.com/thiagosnuness/sleep_frontend](https://github.com/thiagosnuness/sleep_frontend)
+- **SleepCheck Backend**: [https://github.com/thiagosnuness/sleep_backend](https://github.com/thiagosnuness/sleep_backend)
